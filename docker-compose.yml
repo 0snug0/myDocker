@@ -3,7 +3,7 @@ services:
   web:
     build: 
       context : .
-      dockerfile: Dockerfiles/plusbase.DockerFile
+      dockerfile: Dockerfiles/plusbase.Dockerfile
     ports:
       - "80:80"
       - "443:443"
